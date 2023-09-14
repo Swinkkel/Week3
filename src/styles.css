@@ -23,11 +23,11 @@ body {
     background-color: #f2f2f2;
   }
   
-  table tr .over45 {
+  table>tbody>tr.over45 {
     background-color: #abffbd;
   }
   
-  table tr .under25 {
+  table>tbody>tr.under25 {
     background-color: #ff9e9e;
   }
   

@@ -42,10 +42,10 @@ async function getData() {
 
         td4.innerText = num;
         if (num < 25) {
-            td4.className = "under25";
+            tr.className = "under25";
         }
         else if (num > 45) {
-            td4.className = "over45";
+            tr.className = "over45";
         }
 
         tr.appendChild(td1);
