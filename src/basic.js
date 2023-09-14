@@ -25,6 +25,8 @@ async function getData() {
 
     const employments = Object.values(employmentJson.dataset.value);
 
+    const tbody = document.getElementById("table_data");
+
     labels.forEach((label, index) => {
         let tr = document.createElement("tr");
         let td1 = document.createElement("td");
@@ -50,9 +52,6 @@ async function getData() {
         tr.appendChild(td2);
         tr.appendChild(td3);
         tr.appendChild(td4);
-
-        const table = document.getElementById("data_table");
-
-        table.appendChild(tr);
+        tbody.appendChild(tr);
     })
 }
