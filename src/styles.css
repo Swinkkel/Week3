@@ -1,0 +1,50 @@
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+  }
+  
+  td {
+    padding: 6px;
+    border-bottom: 1px solid gray;
+  }
+  
+  th {
+    background-color: #b7d0ff;
+    font-weight: bold;
+    padding: 12px 0px 12px 6px;
+    border-bottom: 2px solid gray;
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr .over45 {
+    background-color: #abffbd;
+  }
+  
+  table tr .under25 {
+    background-color: #ff9e9e;
+  }
+  
+  table {
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .center {
+    margin: auto;
+    padding: 60px;
+    width: 60%;
+  }
